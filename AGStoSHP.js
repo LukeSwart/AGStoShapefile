@@ -192,8 +192,8 @@ function requestService(serviceUrl, serviceName, objectIds) {
                     objstream.write(data);
                     objstream.end();
 
-                    winston.info('Creating Shapefile');
-                    var path_shp = outDir + fname_file + '.zip';
+                    // winston.info('Creating Shapefile');
+                    // var path_shp = outDir + fname_file + '.zip';
 
                     // KT 2016-08-04 begin
                     // KT -- I had to disable geojson --> shp conversion here
